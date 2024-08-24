@@ -22,3 +22,24 @@ th
 {
     text-transform: uppercase;
 }
+
+input:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:optional {
+    background-color: #f0f0f0;
+}
+
+input:required {
+    border: 2px solid blue;
+}
+
+input:valid {
+    border: 2px solid green;
+}
