@@ -1,11 +1,11 @@
 function validateForm()
     {
-        let x = document.forms["myForm"]["fname"].value;
-        if( x == "" )
-        {
-            alert("Name must be filled out");
-            return false;
-        }
+        // let x = document.forms["myForm"]["fname"].value;
+        // if( x == "" )
+        // {
+        //     alert("Name must be filled out");
+        //     return false;
+        // }
 
         let org_phone = document.forms["myForm"]["phone"].value;
         let alt_phone = document.forms["myForm"]["falt_phone"].value;
