@@ -21,13 +21,36 @@
             </tr>
 
             <tr>
-                <th> <label for="fname" > Phone <span class="required">*</span>: </label> </th>
-                <td> <input type="number" name = "fname" class="UpperCase" required></td>
+                <th> <label for="fphone" > Phone <span class="required">*</span>: </label> </th>
+                <td> <input type="number" name = "f_phone"  required></td>
             </tr>
+
+            <tr>
+                <th> <label for="" > Country code <span class="required">*</span>: </label> </th>
+                <td>  <div class="phone-input">
+                    <select name="country_code" required>
+                        <option value="+1">+1 (USA)</option>
+                        <option value="+44">+44 (UK)</option>
+                        <option value="+91">+91 (India)</option>
+                        <option value="+61">+61 (Australia)</option>
+                        <option value="+81">+81 (Japan)</option>
+                        <!-- Add more country codes as needed -->
+                    </select>  
+                </div>  
+                </td>
+            </tr>
+
+
+            
 
             <tr>
                 <th> <label for="fage" > Phone <span class="required">*</span>: </label> </th>
                 <td><input type="text" name="phone" pattern="[0-9]{10}" placeholder="Enter a 10-digit phone number" required></td>
+            </tr>
+
+            <tr>
+                <th> <label for="fphone" >Alternative Phone <span class="required">*</span>: </label> </th>
+                <td> <input type="text" pattern="[0-9]{10}" name = "falt_phone" placeholder="Enter a 10-digit Alternative phone number" required></td>
             </tr>
 
 
@@ -37,8 +60,18 @@
             </tr>
 
             <tr>
-                <th> <label for="fage" > Disabled <span class="required">*</span>: </label> </th>
+                <th> <label for="fage" > Age <span class="required">*</span>: </label> </th>
                 <td> <input type="number" name = "userage"   placeholder="age" min="0" max="120"></td>
+            </tr>
+
+            <tr>
+                <th> <label for="femail" > Email<span class="required">*</span>: </label> </th>
+                <td> <input type="email" name="f_email" placeholder="Email" ></td>
+            </tr> 
+
+            <tr>
+                <th> <label for="falt_email" >Alternative Email<span class="required">*</span>: </label> </th>
+                <td> <input type="email" name="falt_email" placeholder="Altervative Email" ></td>
             </tr>
 
             
