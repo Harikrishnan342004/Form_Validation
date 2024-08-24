@@ -10,6 +10,7 @@ th , td
     border: 1px solid #ddd ;
 
 }
+
 th
 {
     background-color:#f4f4f4 ;
@@ -23,7 +24,7 @@ th
     text-transform: uppercase;
 }
 
-input:disabled {
+/* input:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
@@ -42,4 +43,4 @@ input:required {
 
 input:valid {
     border: 2px solid green;
-}
+} */
