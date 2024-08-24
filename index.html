@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Form Validation </h2>
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+        <table>
+            <tr>
+            <th> <label for="fname"> Name <span class="required">*</span>: </label> </th>
+            <td> <input type="text" name = "fname" required></td>
+            </tr>
+
+            <tr>
+                <th> <label for="fname" > Name <span class="required">*</span>: </label> </th>
+                <td> <input type="text" name = "fname" class="UpperCase" required></td>
+                </tr>
+        </table>
+
+       
+       <input type="submit" value="submit">
+
+
+    </form>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
